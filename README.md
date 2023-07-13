@@ -1,12 +1,11 @@
 # Graduation-Thesis-Topic-Selection-System
 ## Background:
 
-In order to digitize the management of school graduation theses and address issues such as inconvenient and slow information transmission in the past, such as students being unable to submit thesis-related documents due to their absence from campus, and the tedious task of individually notifying students by colleges or supervisors to arrange work. This system enables network-based management, facilitating teachers and students, and improving work efficiency and effectiveness.
+In order to digitize the management of school graduation theses and address issues like inconvenient and slow information transmission in the past, such as students being unable to submit thesis-related documents due to their absence from campus, and the tedious task of individually notifying students by colleges or supervisors to arrange work. This system enables network-based management, facilitating teachers and students, and improving work efficiency and effectiveness.
 
 ## Functional Module Division:
 
 This system can be divided into three modules: Administrator module, Student module, and Teacher module.
-
 1. Administrator module:
 
   a. Login management: Provides a login interface for administrator users, matching the entered username and password with the username and password of administrators in the system. If the match is successful, the administrator can access the administrator interface. If the match fails, the administrator is prompted with login failure or other error messages.
