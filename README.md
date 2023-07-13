@@ -9,7 +9,7 @@ This system can be divided into three modules: Administrator module, Student mod
 
 1. Administrator module:
 
- a. Login management: Provides a login interface for administrator users, matching the entered username and password with the username and password of administrators in the system. If the match is successful, the administrator can access the administrator interface. If the match fails, the administrator is prompted with login failure or other error messages.
+  a. Login management: Provides a login interface for administrator users, matching the entered username and password with the username and password of administrators in the system. If the match is successful, the administrator can access the administrator interface. If the match fails, the administrator is prompted with login failure or other error messages.
 
  b. Student user management: Provides the administrator with an interface to manage student users, displaying the students in the system in a list or other format. For each specific student, their information can be viewed and modified, and students can also be deleted. When deleting a student, tuples in other tables that reference that student in the database should also be deleted to ensure data consistency.
 
