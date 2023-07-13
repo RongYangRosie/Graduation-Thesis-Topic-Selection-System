@@ -6,15 +6,15 @@ In order to digitize the management of school graduation theses and address issu
 ## Functional Module Division:
 
 This system can be divided into three modules: Administrator module, Student module, and Teacher module.
-1. Administrator module:
+### Administrator module:
 
-  a. Login management: Provides a login interface for administrator users, matching the entered username and password with the username and password of administrators in the system. If the match is successful, the administrator can access the administrator interface. If the match fails, the administrator is prompted with login failure or other error messages.
+a. Login management: Provides a login interface for administrator users, matching the entered username and password with the username and password of administrators in the system. If the match is successful, the administrator can access the administrator interface. If the match fails, the administrator is prompted with login failure or other error messages.
 
  b. Student user management: Provides the administrator with an interface to manage student users, displaying the students in the system in a list or other format. For each specific student, their information can be viewed and modified, and students can also be deleted. When deleting a student, tuples in other tables that reference that student in the database should also be deleted to ensure data consistency.
 
  c. Teacher user management: Provides the administrator with an interface to manage teacher users, displaying the teachers in the system in a list or other format. For each specific teacher, their information can be viewed and modified, and teachers can also be deleted. When deleting a teacher, tuples in other tables that reference that teacher in the database should also be deleted to ensure data consistency.
 
- d. Student topic viewing: Allows administrators to view the topics chosen by students.
+d. Student topic viewing: Allows administrators to view the topics chosen by students.
 
 3. Teacher module:
    
