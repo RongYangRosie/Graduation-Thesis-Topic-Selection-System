@@ -8,32 +8,32 @@ In order to digitize the management of school graduation theses and address issu
 This system can be divided into three modules: Administrator module, Student module, and Teacher module.
 #### Administrator module:
 
-a. Login management: Provides a login interface for administrator users, matching the entered username and password with the username and password of administrators in the system. If the match is successful, the administrator can access the administrator interface. If the match fails, the administrator is prompted with login failure or other error messages.
+a. Login management: Provides a login interface for administrator users, matching the entered username and password with the credentials in the system.
 
- b. Student user management: Provides the administrator with an interface to manage student users, displaying the students in the system in a list or other format. For each specific student, their information can be viewed and modified, and students can also be deleted. When deleting a student, tuples in other tables that reference that student in the database should also be deleted to ensure data consistency.
+b. Student user management: Allows administrators to manage student users, including viewing, modifying, and deleting student information. Ensures data consistency by deleting related tuples in other tables.
 
- c. Teacher user management: Provides the administrator with an interface to manage teacher users, displaying the teachers in the system in a list or other format. For each specific teacher, their information can be viewed and modified, and teachers can also be deleted. When deleting a teacher, tuples in other tables that reference that teacher in the database should also be deleted to ensure data consistency.
+c. Teacher user management: Allows administrators to manage teacher users, including viewing, modifying, and deleting teacher information. Ensures data consistency by deleting related tuples in other tables.
 
 d. Student topic viewing: Allows administrators to view the topics chosen by students.
 #### Teacher module:
    
-(1) Login management: Provides a login interface for teacher users, matching the entered username and password with the username and password of teachers in the system. If the match is successful, the teacher can access the teacher interface. If the match fails, the teacher is prompted with login failure or other error messages.
+a. Login management: Provides a login interface for teacher users, matching the entered username and password with the credentials in the system.
 
-(2) Teacher personal information management: Provides teachers with the functionality to modify their personal information.
+b. Teacher personal information management: Allows teachers to modify their personal information.
 
-(3) Thesis topic management: Provides teachers with an interface to propose graduation thesis topics. In this interface, teachers need to provide information about the topic, such as the topic title, category (practical or theoretical), target major, and topic requirements.
+c. Thesis topic management: Allows teachers to propose graduation thesis topics, including providing topic details such as title, category, target major, and requirements.
 
-(4) Teacher confirmation of student selection: Teachers confirm the selection of students based on their candidature.
+d. Teacher confirmation of student selection: Allows teachers to confirm the selection of students based on their candidature.
 
 #### Student module:
    
-(1) Login management: Provides a login interface for student users, matching the entered username and password with the username and password of students in the system. If the match is successful, the student can access the student interface. If the match fails, the student is prompted with login failure or other error messages.
+a. Login management: Provides a login interface for student users, matching the entered username and password with the credentials in the system.
 
-(2) Personal information management: Provides students with the functionality to modify their personal information.
+b. Personal information management: Allows students to modify their personal information.
 
-(3) Student topic management: Students can view the content of available topics and make topic selections.
+c. Student topic management: Allows students to view available topics and make topic selections.
 
-(4) Viewing student topic selection results: Students can view the topics that have been confirmed by the teacher for their selection.
+d. Viewing student topic selection results: Allows students to view the topics confirmed by the teacher for their selection.
 
 
 
